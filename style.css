@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+html{
+   
+  
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ h1{
+    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    font-size: 4rem;
+    padding-bottom: 8rem;
+    padding-top: 3rem;
+    margin-bottom: 0rem;
+    width: 99.5%; 
+    ;
+  
+   
+}
+.container{
+    box-sizing:content-box;
+    display:flex;
+    flex-direction:column;
+    width: 78%;
+    background-color: rgb(30, 31, 30);
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    
+}
+ 
+.input{
+    display:flex ;
+    align-items: center;
+}
+.lottery{
+    width: 12rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    
+}
+#number{
+    width: 13rem;
+    height: 3rem;
+    border-radius:  3rem ;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-left: 6rem;
+    margin-right: 4rem;
+    background-color :rgb(249, 250, 215);
+ 
+}
+#feedback{
+    color: red;
+}
+
+#enter{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(16, 139, 0);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+ 
+}
+#enter:hover{
+    background-color: red;
+    color: black;
+    width: 12rem;
+    height: 3rem;
+  
+}
+#yeniOyun{
+    margin-left: 2rem;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(125, 139, 0);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#result{
+    font-size: 1,5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
